@@ -1,0 +1,59 @@
+.content-enter-active,
+.content-leave-active {
+  transition-duration: 0.3s;
+  //opacity: 1;
+
+  .menu{
+    transition: all 0.3s ease;
+    transform: translateX(0);
+    opacity: 1;
+  }
+
+  .content{
+    transition: opacity 0.3s ease;
+    opacity: 1;
+  }
+
+}
+.content-enter,
+.content-leave-to {
+  //opacity: 0;
+
+  .menu{
+    opacity: 0;
+
+    @include breakPoint($breakpoint-compact){
+      transform: translateX(-10%);
+    }
+  }
+
+  .content{
+    opacity: 0;
+  }
+}
+
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.3s ease;
+}
+
+.fade-enter,
+.fade-leave-active {
+  opacity: 0
+}
+
+@keyframes loading {
+  from {
+    background: rgb(219, 219, 219);
+    border-color: rgb(236, 236, 236);
+  }
+  50% {
+    background: #ECECEC;
+    border-color: #ECECEC;
+  }
+  to {
+    background: rgb(219, 219, 219);
+    border-color: rgb(236, 236, 236);
+  }
+}

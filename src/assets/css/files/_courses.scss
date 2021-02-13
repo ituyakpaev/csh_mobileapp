@@ -1,0 +1,834 @@
+.course{
+
+  &__case{
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    box-shadow: $box-shadow;
+    overflow: hidden;
+    position: relative;
+
+    &-anchor{
+      display: inline;
+      position: absolute;
+      top: -120px;
+    }
+
+    @include breakPoint(0, $breakpoint-tablet){
+      margin: 0 -20px 1px;
+      padding: 20px;
+    }
+
+    &_main{
+    }
+
+    &_bonus{
+      border: 2px solid $color-yellow;
+    }
+
+    &_cards{
+      background: transparent;
+      padding: 0;
+      box-shadow: none;
+      overflow: visible;
+
+      @include breakPoint(0, $breakpoint-tablet){
+        padding: 20px;
+        margin-bottom: 20px;
+      }
+
+    }
+  }
+
+  &__title{
+    font-weight: 400;
+    font-family: $font-title;
+    padding-right: 30px;
+    display: block;
+    position: relative;
+    box-sizing: border-box;
+    width: 100%;
+    font-size: 20px;
+    margin: 30px 0 0;
+
+    &:first-child{
+      margin-top: 0;
+    }
+
+    @include breakPoint($breakpoint-tablet){
+      font-size: 24px;
+    }
+
+    .arrow{
+      position: absolute;
+      color: $color-grey-light;
+      top: 5px;
+      right: 0;
+    }
+  }
+
+  &__text{
+    padding-top: 15px;
+
+    &:after{
+      content: '';
+      display: table;
+      clear: both;
+    }
+  }
+
+  &__file{
+    margin: -5px;
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.2;
+
+    @include breakPoint($breakpoint-tablet){
+      margin: -10px;
+    }
+
+    &-item{
+      padding: 5px;
+
+      @include breakPoint($breakpoint-tablet){
+        padding: 10px;
+      }
+
+      &_dark{
+        color: #fff;
+      }
+    }
+
+    /* &-inner{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        border: 2px solid #CCCCCC;
+        height: 135px;
+        width: 135px;
+        padding: 15px;
+        box-sizing: border-box;
+        background: #fff;
+
+        &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            top: -2px;
+            right: -2px;
+            width: 0;
+            height: 0;
+            border: 11px solid #fff;
+            border-bottom-color:$color-yellow;
+            border-left-color:$color-yellow;
+        }
+
+
+        .course__file-item_dark &{
+            background: #44525F;
+            border-color: #44525F;
+        }
+
+        &:hover{
+            border-color: $color-yellow;
+        }
+    }
+    &-ext{
+        font-size: 16px;
+        flex: 1 1 auto;
+    }
+    &-name{
+        font-size: 14px;
+        font-weight: 400;
+        color: $color-black;
+        margin-bottom: 10px;
+
+        .course__file-item_dark &{
+            color: #fff;
+        }
+    }
+    &-weight{
+        font-size: 13px;
+    }
+    &-icon{
+        width: 20px;
+        height: 20px;
+        position: absolute;
+        right: 15px;
+        bottom: 15px;
+        border: 1px solid #CCCCCC;
+        border-radius: 50%;
+        box-sizing: border-box;
+        color: $color-yellow;
+
+    } */
+  } // not using
+
+  &__video{
+    margin-bottom: 35px;
+
+    &:last-child{
+      margin-bottom: 0;
+    }
+
+    &-item{
+      height: 0;
+      position: relative;
+      padding-top: (100% * 394 / 700);
+      background: no-repeat 50% 50%;
+      background-size: cover;
+    }
+
+    &-frame{
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+
+      iframe{
+        width: 100% !important;
+        height: 100% !important;
+      }
+    }
+
+    &-name{
+      font-size: 16px;
+      font-weight: 400;
+      color: $color-yellow;
+      margin: 15px 0;
+
+      &:first-child{
+        margin-top: 0;
+      }
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+    }
+  } // not using
+
+  &__preview{
+    margin-bottom: 20px;
+    text-align: center;
+
+    @include breakPoint($breakpoint-tablet){
+      float: right;
+      width: 35%;
+      margin-left: 20px;
+    }
+
+    img{
+      width: 100%;
+
+      &[lazy="loading"]{
+        width: 100px;
+        height: 100px;
+      }
+    }
+  }
+
+  &__html{
+    color: $color-grey-text;
+    overflow: hidden;
+
+    p{
+
+      margin: 15px 0;
+      &:first-child{margin-top: 0;}
+      &:last-child{margin-bottom: 0;}
+    }
+
+    b{
+      font-weight: 500;
+      color: $color-black;
+    }
+
+    li{
+      position: relative;
+      margin: 15px 0;
+      &:first-child{margin-top: 0;}
+      &:last-child{margin-bottom: 0;}
+    }
+
+    a{
+      color: $color-yellow;
+    }
+
+    ul{
+      margin: 15px 0;
+      &:first-child{margin-top: 0;}
+      &:last-child{margin-bottom: 0;}
+
+      li{
+        padding-left: 15px;
+
+        &:before{
+          content: '';
+          position: absolute;
+          width: 5px;
+          height: 5px;
+          background: $color-yellow;
+          border-radius: 50%;
+          top: 7px;
+          left: 0;
+        }
+      }
+    }
+
+    ol{
+      margin: 15px 0;
+      &:first-child{margin-top: 0;}
+      &:last-child{margin-bottom: 0;}
+      counter-reset: count;
+
+      li{
+        &:before{
+          counter-increment: count;
+          content: counter(count)". ";
+          color: $color-yellow;
+        }
+      }
+    }
+
+  }
+
+
+  &__main{
+    display: flex;
+    flex-wrap: wrap;
+
+
+    &-info{
+
+      @include breakPoint(0, $breakpoint-tablet){
+        order: 1;
+      }
+
+      @include breakPoint($breakpoint-tablet){
+        width: 65%;
+        display: flex;
+        flex-direction: column;
+      }
+
+      &-title{
+        color: $color-yellow;
+        margin-bottom: 5px;
+      }
+      &-name{
+        font-size: 24px;
+        font-family: $font-title;
+        margin-bottom: 10px;
+        line-height: 1.2;
+      }
+      &-text{
+        color: $color-grey-text;
+
+        @include breakPoint($breakpoint-tablet){
+          flex: 1 1 auto;
+        }
+
+
+        b{
+          color: $color-black;
+        }
+      }
+    }
+    &-status{
+      margin-top: 15px;
+
+      &-value{
+        font-size: 24px;
+        font-weight: 400;
+      }
+
+      &-icon{
+        margin-left: 10px;
+        width: 20px;
+        height: 20px;
+        border-radius: 50%;
+        color: #fff;
+        display: inline-block;
+        vertical-align: middle;
+        margin-top: -3px;
+
+        &_success{
+          background: $color-green;
+        }
+
+        &_warning{
+          background: $color-yellow;
+        }
+
+        &_error{
+          background: $color-red;
+        }
+
+        .icon{
+          display: block;
+          width: 100%;
+          height: 100%;
+        }
+      }
+    }
+    &-image{
+      display: block;
+      height: 150px;
+      background: no-repeat 50% 50%;
+      background-size: cover;
+      width: 100%;
+
+      @include breakPoint(0, $breakpoint-tablet){
+        order: 0;
+        margin-bottom: 15px;
+      }
+
+      @include breakPoint($breakpoint-tablet){
+        width: 35%;
+        height: 260px;
+      }
+
+    }
+
+    &-table{
+      display: flex;
+      &-col{
+        margin-left: 50px;
+
+        &:first-child{
+          margin-left: 0;
+        }
+      }
+      &-title{
+        font-size: 13px;
+        color: $color-yellow;
+        margin-bottom: 3px;
+      }
+      &-old_price{
+        font-size: 18px;
+        color: $color-black;
+        font-weight: 400;
+        text-decoration: line-through;
+        line-height: 1.2;
+      }
+      &-price{
+        font-weight: 400;
+        font-size: 24px;
+        color: $color-yellow;
+      }
+    }
+
+    &-payment{
+
+
+
+      &-btns{
+        margin-top: 5px;
+
+        .btn{
+          margin-right: 10px;
+          margin-top: 10px;
+        }
+      }
+    }
+
+    &-error{
+      background: $color-red;
+      color: #fff;
+      margin: 20px -20px -20px;
+      width: calc(100% + 40px);
+      padding: 20px;
+      display: flex;
+
+      @include breakPoint(0, $breakpoint-tablet){
+        order: 1;
+        flex-wrap: wrap;
+      }
+
+      &-info{
+        flex: 1 1 auto;
+
+      }
+
+      &-icon{
+        margin-right: 15px;
+
+        @include breakPoint($breakpoint-tablet){
+          align-self: center;
+        }
+      }
+
+      &-title{
+        font-family: $font-title;
+        font-weight: 400;
+        font-size: 20px;
+        margin-bottom: 5px;
+        line-height: 1.2;
+      }
+
+      &-link{
+        align-self: flex-end;
+        margin-top: 10px;
+        text-align: right;
+
+        a{
+          display: inline-flex;
+          align-items: center;
+
+          .icon{
+            margin-left: 5px;
+          }
+
+          &:hover{
+            text-decoration: underline;
+          }
+        }
+
+        @include breakPoint(0, $breakpoint-tablet){
+          width: 100%;
+        }
+      }
+
+    }
+  }
+
+  &__cards{
+    margin: -10px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  &__offer{
+    &-confirm{
+      .btn{
+        margin-top: 20px;
+      }
+    }
+
+    &-files{
+      margin: 0 -5px;
+      display: flex;
+      flex-wrap: wrap;
+    }
+
+    &-file{
+      padding: 0 5px;
+      box-sizing: border-box;
+      width: 50%;
+      margin-bottom: 20px;
+      max-width: 232px;
+
+      &.loading{
+        pointer-events: none;
+      }
+
+      @include breakPoint($breakpoint-hd){
+        max-width: 290px;
+      }
+
+      input{
+        opacity: 0;
+        pointer-events: none;
+        position: absolute;
+        width: 10px;
+        height: 10px;
+      }
+
+      &-status{
+        position: absolute;
+        right: 10px;
+        bottom: 10px;
+        z-index: 1;
+      }
+
+      &-image{
+        margin-bottom: 5px;
+        position: relative;
+
+        .loading &{
+          &:after{
+            content: '';
+            display: block;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            width: 80px;
+            height: 80px;
+            //background: url('@/img/svg/loader-yellow.svg') no-repeat 50% 50%;
+            background-size: contain;
+          }
+        }
+
+        &-pic{
+          width: 100%;
+          box-sizing: border-box;
+          height: 100%;
+          background: $color-grey-white no-repeat 50% 50%;
+          border: 1px solid $color-grey-light;
+          background-size: contain;
+          position: relative;
+
+          .loading &{
+            opacity: 0.5;
+          }
+        }
+      }
+
+      &-name{
+        font-size: 14px;
+        font-weight: 400;
+        margin-bottom: 5px;
+      }
+      &-control{
+        font-size: 14px;
+
+        a{
+          color: $color-yellow;
+        }
+      }
+    }
+  }
+
+  &__bonus{
+
+    @include breakPoint($breakpoint-tablet){
+      display: flex;
+      justify-content: space-between;
+    }
+
+
+    &-title{
+      font-family: $font-title;
+      font-size: 20px;
+      font-weight: 400;
+      margin-bottom: 15px;
+
+      @include breakPoint($breakpoint-tablet){
+        font-size: 24px;
+      }
+    }
+
+    &-text{
+
+      ol{
+        counter-reset: count;
+      }
+
+      li{
+        margin: 10px 0;
+
+        &:before{
+          counter-increment: count;
+          content: counter(count)". ";
+          color: $color-yellow;
+        }
+      }
+    }
+
+    &-info{
+      @include breakPoint($breakpoint-tablet){
+
+      }
+    }
+
+    &-picture{
+
+      display: flex;
+      align-items: center;
+
+      @include breakPoint($breakpoint-tablet){
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+      }
+
+      &-image{
+        width: 122px;
+        min-width: 122px;
+        height: 122px;
+        border-radius: 50%;
+        position: relative;
+        background: no-repeat 50% 50%;
+        background-size: cover;
+        margin-right: 23px;
+
+        @include breakPoint($breakpoint-tablet){
+          margin-right: 0;
+          margin-bottom: 15px;
+        }
+      }
+
+      &-icon{
+        width: 49px;
+        height: 49px;
+        background: #fff;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        color: $color-yellow;
+        position: absolute;
+        bottom: -10px;
+        right: -10px;
+
+        .icon{
+          width: 30px;
+          height: 30px;
+        }
+      }
+
+      &-text{
+        font-weight: 400;
+        font-family: $font-title;
+        color: $color-yellow;
+
+        a{
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  &__hold{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: -20px;
+    right: -20px;
+    background: rgba(#44525F, 0.7);
+    z-index: 1;
+
+    @include breakPoint($breakpoint-tablet){
+      left: 0;
+      right: 0;
+    }
+
+    &-pop{
+      position: absolute;
+      background: #fff;
+      width: 608px;
+      max-width: calc(100% - 40px);
+      top: 37px;
+      left: 50%;
+      transform: translateX(-50%);
+      box-sizing: border-box;
+      padding: 25px;
+      text-align: center;
+
+
+    }
+
+    &-icon{
+      margin-bottom: 10px;
+    }
+
+    &-title{
+      margin-bottom: 10px;
+      font-size: 16px;
+      font-weight: 500;
+    }
+
+    &-text{
+      color: #919191;
+      font-size: 13px;
+    }
+  }
+
+  &__slider{
+
+    margin-top: 20px;
+
+    &:first-child{
+      margin-top: 0;
+    }
+
+    .swiper-container{
+      overflow: visible!important;
+    }
+
+    &-slide{
+
+      flex-grow: 1;
+
+      &:last-child {
+        margin-right: 0!important;
+      }
+
+      @include breakPoint(0, $breakpoint-tablet){
+        width: auto!important;
+      }
+
+      &-inner{
+        padding-bottom: 100%;
+        position: relative;
+        cursor: pointer;
+
+        //@include breakPoint($breakpoint-tablet){
+        //	width: auto;
+        //}
+      }
+
+      &-image{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: no-repeat 50% 50%;
+        background-size: cover;
+      }
+
+      &-arrow{
+        position: absolute;
+        color: $color-yellow;
+        bottom: -10px;
+        cursor: pointer;
+        width: 40px;
+        height: 40px;
+
+        .icon{
+          width: 100%;
+          height: 100%;
+        }
+
+        &_prev{
+          left: -15px;
+        }
+
+        &_next{
+          right: -15px;
+        }
+
+        &.swiper-button-disabled{
+          opacity: 0.5;
+        }
+      }
+
+      &-pagination{
+
+        text-align: center;
+        font-size: 0;
+        margin: 15px 0 0;
+
+        .swiper-pagination-bullet{
+          display: inline-block;
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+          background: $color-yellow;
+          border: 1px solid $color-yellow;
+          box-sizing: border-box;
+          margin: 5px;
+
+          &-active{
+            background: #fff;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,46 @@
+
+
+$m-form-border-color: $color-grey-light;
+$m-form-error-color: $color-red;
+$m-form-active-color: $color-yellow;
+$m-form-success-color: $color-green;
+$m-form-success-font: 300 13px sans-serif;
+$m-form-transition: all .3s ease;
+
+
+// input
+$input-paddings: 10px 16px;
+$input-font: $m-form-success-font;
+$input-border: 1px solid $m-form-border-color;
+$input-border-radius: 2px;
+
+// textarea
+$textarea-paddings: 10px 16px;
+$textarea-font: $m-form-success-font;
+$textarea-border: 1px solid $m-form-border-color;
+$textarea-border-radius: 2px;
+
+
+// checkbox
+$checkbox-width: 20px;
+$checkbox-background: #fff;
+$checkbox-background-checked: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 38 38'%3E%3Cpath fill='%23FFB600' d='M31,13.1L14.5,28.6L7,21.1l3.5-3.5l4.1,4.1l13-12.2L31,13.1z'/%3E%3C/svg%3E%0A");
+$checkbox-height: $checkbox-width;
+$checkbox-border: 1px solid $m-form-border-color;
+$checkbox-border-checked: 1px solid $m-form-border-color;
+$checkbox-border-radius: 2px;
+$checkbox-label-font: $m-form-success-font;
+$checkbox-label-paddings: 3px 0 2px 8px;
+
+
+// radio
+$radio-width: 20px;
+$radio-background: #fff;
+$radio-background-checked: $m-form-active-color url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 38 38'%3E%3Ccircle r='10' cx='19' cy='19' fill='%23fff'/%3E%3C/svg%3E");
+$radio-height: $radio-width;
+$radio-border: 1px solid $m-form-border-color;
+$radio-border-checked: 1px solid $m-form-active-color;
+$radio-border-radius: 50%;
+$radio-label-font: $m-form-success-font;
+$radio-label-paddings: 3px 0 2px 8px;
+

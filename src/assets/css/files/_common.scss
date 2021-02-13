@@ -1,0 +1,133 @@
+// common classes for project
+
+.inner{
+  margin: 0 auto;
+  max-width: calc(100% - 40px);
+
+  @include breakPoint($breakpoint-tablet){
+    max-width: calc(100% - 60px);
+  }
+
+  @include breakPoint($breakpoint-compact){
+    max-width: 840px;
+  }
+
+  @include breakPoint($breakpoint-desktop){
+    max-width: 1120px;
+  }
+
+  @include breakPoint($breakpoint-hd){
+    max-width: 1250px; //1550px;
+  }
+
+
+  &-wide {
+    max-width: 1550px;
+    margin: 0 auto;
+
+    @include mediaLessons(wd) {
+      max-width: 1240px;
+    }
+
+    @include mediaLessons(lg) {
+      max-width: 900px;
+    }
+
+    @include mediaLessons(md) {
+      max-width: calc(100% - 60px);
+    }
+
+    @include media(sm) {
+      max-width: calc(100% - 40px);
+    }
+  }
+}
+
+.content{
+  padding: 20px 0;
+}
+
+.main-message {
+  &__title {
+    font-size: 20px;
+    @include media(md) {
+      font-size: 16px;
+    }
+    margin: .5em 0 .5em;
+  }
+}
+
+.h1, .h2, .h3, .h4 {
+  font-weight: 300;
+  font-family: $font-title;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+}
+.h1 {
+  font-size: 20px;
+
+  @include breakPoint($breakpoint-tablet){
+    font-size: 24px;
+  }
+}
+
+.h2 {
+  font-size: 15px;
+
+  @include breakPoint($breakpoint-tablet){
+    font-size: 18px;
+  }
+}
+.text {
+  font-family: $font-main;
+  font-weight: 300;
+  color: #141414;
+  line-height: 1.5;
+  font-size: 13px;
+}
+
+.loader{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100px;
+  height: 100px;
+  transform: translate(-50%, -50%);
+  //background: url('../../img/svg/loader-yellow.svg') no-repeat 50% 50%;
+  background-size: cover;
+}
+
+.link {
+  cursor: pointer;
+  display: inline-block;
+  user-select: none;
+}
+
+.loading {
+  background: rgb(219, 219, 219);
+  color: transparent !important;
+  display: block;
+  border-color: rgb(236, 236, 236);
+  border-radius: 5px;
+  animation: loading 1.5s infinite;
+
+  &::placeholder {
+    color: transparent;
+  }
+}
+
+.c{
+  &-green{
+    color: $color-green;
+  }
+  &-yellow{
+    color: $color-yellow;
+  }
+  &-red{
+    color: $color-red;
+  }
+  &-grey{
+    color: $color-grey-light;
+  }
+}

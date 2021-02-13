@@ -1,0 +1,7 @@
+node_modules
+dist
+
+# Cordova
+/dist/platforms
+/dist/plugins
+/public/cordova.js

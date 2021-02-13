@@ -1,0 +1,182 @@
+
+
+/// media break point
+/// @param {Size} $min [1200px] - width
+/// @param {Size} $max [1800px] - width
+/*
+ 1660px+ = 1520
+ 1200 - 1660 = 1120
+ 960 - 1200 = 840
+ 768 - 960 = calc(100% - 60px)
+ 768- = calc(100% - 40px)
+*/
+
+
+@mixin breakPoint ($min, $max: null){
+  @if ($max) {
+    @media screen and (min-width: #{$min}) and (max-width: #{$max - 1px}){
+      @content;
+    }
+  }
+  @else {
+    @media screen and (min-width: #{$min}) {
+      @content;
+    }
+  }
+}
+
+$screens: (
+        wd: 1660,
+        lg: 1200,
+        md: 960,
+        sm: 768,
+        xs: 576,
+        exs: 415
+);
+
+@mixin media($value) {
+  $width: map_get($screens, $value);
+  @media screen and (max-width: $width + 'px') {
+    @content
+  }
+}
+
+
+
+/// Grid site
+/// @param {Number} $columns [12] - column lines count
+/// @param {Size} $gutter [1%] - gutter width
+/// @param {Size} $offset [0] - side offset
+/// @param {Color} $color [rgba(45, 132, 190, 0.2)] - lines color
+
+///	body {
+///		&:before{
+///			content: '';
+///			@include grid();
+///		}
+///	}
+
+@mixin grid($columns: 12, $gutter: 1%, $offset: 0, $color: rgba(45, 132, 190, 0.2)){
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: calc(100% - (2 * #{$offset}));
+  height: 100vh;
+  content: '';
+  background-image: repeating-linear-gradient(
+                  to right,
+                  $color,
+                  $color calc((100% / #{$columns}) - #{$gutter}),
+                  transparent calc((100% / #{$columns}) - #{$gutter}),
+                  transparent calc(100% / #{$columns})
+  );
+  background-size: calc(100% + #{$gutter}) 100%;
+  z-index: 1000;
+  pointer-events: none;
+}
+
+
+
+@mixin closeBtn($width: 30px, $height: 4px){
+  position: absolute;
+  width: $width;
+  height: $width;
+  cursor: pointer;
+
+  &:before,
+  &:after{
+    content: '';
+    width: $width;
+    height: $height;
+    margin-top: -($height/2);
+    margin-left: -($width/2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: currentColor;
+    //border-radius: #{$height};
+  }
+
+  &:before{
+    transform: rotate(45deg);
+  }
+
+  &:after{
+    transform: rotate(135deg);
+  }
+
+}
+
+@mixin burgerButton ($openClass: '.is-open', $handlerWidth: 30px, $handlerHeight: 4px, $handlerRadius: 5px){
+  cursor: pointer;
+
+  i{
+    display: block;
+    width: $handlerWidth;
+    height: $handlerHeight;
+    background: currentColor;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -($handlerHeight/2);
+    margin-left: -($handlerWidth/2);
+    transition: all 0.3s ease;
+    border-radius: $handlerRadius;
+
+    #{$openClass} &{
+      width: $handlerHeight;
+      margin-left: -($handlerHeight/2);
+    }
+
+    &:before,
+    &:after{
+      content: '';
+      display: block;
+      width: $handlerWidth;
+      height: $handlerHeight;
+      background: currentColor;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      margin-top: -($handlerHeight/2);
+      margin-left: -($handlerWidth/2);
+      transition: all 0.3s ease;
+      border-radius: $handlerRadius;
+    }
+
+    &:before{
+      top:-(($handlerWidth/3) - ($handlerHeight/2));
+      #{$openClass} &{
+        top:50%;
+        transform: rotate(45deg);
+      }
+    }
+
+    &:after{
+      top: (($handlerWidth/3) + ($handlerHeight/2));
+      #{$openClass} &{
+        top:50%;
+        transform: rotate(135deg);;
+      }
+    }
+  }
+}
+
+$screens-lessons: (
+        wd: 1660,
+        lg: 1330,
+        md: 950,
+        sm: 720,
+        xs: 576
+);
+
+@mixin mediaLessons($value) {
+  $width: map_get($screens-lessons, $value);
+  @media screen and (max-width: $width + 'px') {
+    @content
+  }
+}
+

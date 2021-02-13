@@ -1,0 +1,74 @@
+@import 'mixins';
+
+$font-title: 'Lora', serif;
+$font-main: 'Roboto', sans-serif;
+
+
+$breakpoint-mobile: 576px;
+$breakpoint-tablet: 768px;
+$breakpoint-compact: 960px;
+$breakpoint-desktop: 1200px;
+$breakpoint-hd: 1660px;
+
+/*$breakpoint-mobile: 576px;
+$breakpoint-tablet: 720px;
+$breakpoint-compact: 950px;
+$breakpoint-desktop: 1330px;
+$breakpoint-hd: 1660px; */
+
+$color-black: #141414;
+$color-grey-white: #ececec;
+$color-grey: #606C77;
+$color-grey-text: #757575;
+$color-grey-light: #a2a9af;
+
+$color-green: #67B930;
+$color-yellow: #FFB600;
+$color-red: #D7373F;
+
+$grid-gutter: 20px;
+
+$box-shadow: 0 2px 4px rgba(#000, .3);
+$header-shadow: 0 2px 4px -2px rgba(#000, .35);
+
+$color-orange: #FB8C00;
+$color-green-dark: #2B6925;
+$color-blue: #071AC3;
+$color-blue-dark: #131D76;
+
+$color-main: $color-blue;
+$color-main-dark: $color-blue-dark;
+
+$fLineHeight: 1.2;
+$fFontSize: 14px;
+$fGutter: 16px;
+$fOffsetY: 11px;
+$fOffsetX: 16px;
+$fWidthBorder: 1px;
+$fColorBorder: #BDBDBD;
+$fColorFocus: $color-blue-dark;
+$fColorError: $color-red;
+$roundElement: 0;
+$inputBg: #fff;
+
+$form-item-bgcolor: #fff;
+$form-item-fontsize: 14px;
+$form-item-border: 1px solid #9E9E9E;
+$form-item-padding-vert: 11px;
+$form-item-padding-hor: 16px;
+$form-item-active-color: $color-blue-dark;
+$form-item-error-color: $color-red;
+$form-item-dropdown-shadow: 0 1px 5px rgba(0, 0, 0, 0.2), 0 3px 4px rgba(0, 0, 0, 0.12), 0 2px 4px rgba(0, 0, 0, 0.14);
+$form-item-dropdown-offset: 8px;
+$form-item-minheight: 38px;
+
+
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="9064ee07-b678-4079-bb73-8afb747540b6" name="Default Changelist" comment=" j">
+      <change afterPath="$PROJECT_DIR$/../admin/public/.htaccess" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/btn-loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/01.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/01_s.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/02.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/02_s.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/03.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/03_s.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/04.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/04_s.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/05.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/05_s.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/06.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/certificat/06_s.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/consist-graph_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/consist-img_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/consist-img_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/consist-img_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/consist-img_4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/how-graph_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/how-graph_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/how-graph_3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/how-phone.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/how-screen_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/how-screen_2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/how-screen_3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/guide/icon_check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/mburns.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/payment/alfa.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/payment/card.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/payment/cash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/payment/psb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/payment/qiwi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/payment/webmoney.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/payment/yandex.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/picture/Photo_1024.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/picture/Photo_1366.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/picture/Photo_1920.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/picture/Photo_360.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/picture/Photo_768.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/picture/photo_1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/picture/photo_2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/sprite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/arrow-slider-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/arrow-slider-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/btn-loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/checkbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-cart_fill.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-fb-w.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-info-dificult.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-info-dificult_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-info-dificult_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-info-dificult_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-info-page.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-info-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-lens.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-view.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico-vk-w.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico_arrow_away.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico_arrow_more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico_arrow_w.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico_breadcrumb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico_check_w.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico_download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico_instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ico_vk.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/logo_footer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/logo_header.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/sign.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/slider-arrow-next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/slider-arrow-prev.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ticket_ico_1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ticket_ico_2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ticket_ico_3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ticket_ico_4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ticket_ico_5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ticket_ico_6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/assets/img/svg/ticket_ico_7.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/middleware/v1/api/cart.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/middleware/v1/instance.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/aside/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/aside/product.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/banners/banner.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/banners/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/content/payment.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/content/products/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/content/products/item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/content/user/gift.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/content/user/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/content/user/login.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../cart/src/views/cart/content/user/more.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSH_1/src/assets/css/files/_common.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSH_1/src/assets/css/files/_courses.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSH_1/src/assets/css/files/_lessons.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../CSH_1/src/views/courses/homeworks/curator/homework/index.vue" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/middleware/api/auth.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/middleware/api/auth.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/middleware/api/users.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/middleware/api/users.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/plugins/router/routes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/plugins/router/routes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../admin/src/views/users/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../admin/src/views/users/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/src/plugins/filters.js" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/src/plugins/filters.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/src/views/cart/content/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/src/views/cart/content/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/src/views/cart/outside/index.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/src/views/cart/outside/index.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../cart/src/views/cart/outside/product.vue" beforeDir="false" afterPath="$PROJECT_DIR$/../cart/src/views/cart/outside/product.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/lk cordova.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/lk cordova.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk cordova/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lk cordova/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk cordova/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../lk cordova/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lk cordova/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../lk cordova/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Маска для номера телефона/src/plugins/phone_codes.js" beforeDir="false" afterPath="$PROJECT_DIR$/../../Маска для номера телефона/src/plugins/phone_codes.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Не актуальные/slista/slista.ru" beforeDir="false" afterPath="$PROJECT_DIR$/../../Не актуальные/slista/slista.ru" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1o3qvFY7hN8iw94MOvhgG3Jr48h" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+      <recent name="$PROJECT_DIR$/src/views" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9064ee07-b678-4079-bb73-8afb747540b6" name="Default Changelist" comment="" />
+      <created>1612525851487</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1612525851487</updated>
+      <workItem from="1612525852828" duration="1364000" />
+      <workItem from="1612527417668" duration="16000" />
+      <workItem from="1612779249789" duration="1823000" />
+      <workItem from="1612790278080" duration="17000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value=" j" />
+    <option name="LAST_COMMIT_MESSAGE" value=" j" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="304" y="25" key="CommitChangelistDialog2" timestamp="1612527154014">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state x="304" y="25" key="CommitChangelistDialog2/0.25.1440.786@0.25.1440.786" timestamp="1612527154014" />
+    <state x="320" y="155" key="Vcs.Push.Dialog.v2" timestamp="1612527161765">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state x="320" y="155" key="Vcs.Push.Dialog.v2/0.25.1440.786@0.25.1440.786" timestamp="1612527161765" />
+    <state x="385" y="135" width="670" height="676" key="search.everywhere.popup" timestamp="1612526604267">
+      <screen x="0" y="25" width="1440" height="786" />
+    </state>
+    <state x="385" y="135" width="670" height="676" key="search.everywhere.popup/0.25.1440.786@0.25.1440.786" timestamp="1612526604267" />
+  </component>
+</project>

@@ -1,0 +1,62 @@
+
+.tippy-tooltip{
+
+	box-sizing: border-box;
+	text-align: left;
+
+	text-overflow: ellipsis;
+
+	.tippy-arrow{
+		//display: none;
+	}
+
+
+
+	&.menu-theme {
+		box-sizing: border-box;
+		text-align: left;
+		margin-top: -10px;
+
+		font-size: 13px;
+		background: #44525F;
+		border-radius: 5px;
+		padding: 5px 12px;
+		color: #fff;
+
+		hr{
+			height: 1px;
+			background: #A2A9AF;
+			display: block;
+			box-shadow: none;
+		}
+
+		.link{
+			color: #A2A9AF;
+			cursor: pointer;
+			padding: 5px;
+			margin: 5px 0;
+			user-select: none;
+
+			&:hover{
+				color: #fff;
+			}
+		}
+
+		&[x-placement^='top'] .tippy-arrow {
+			border-top-color: #44525F;
+		}
+		&[x-placement^='bottom'] .tippy-arrow {
+			border-bottom-color: #44525F;
+		}
+		&[x-placement^='left'] .tippy-arrow {
+			border-left-color: #44525F;
+		}
+		&[x-placement^='right'] .tippy-arrow {
+			border-right-color: #44525F;
+		}
+		&[x-out-of-boundaries]{
+			opacity: 0;
+			pointer-events: none;
+		}
+	}
+}
